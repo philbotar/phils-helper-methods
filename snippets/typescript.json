@@ -1,0 +1,17 @@
+{
+	"Given": {
+		"prefix": ["given", "GIVEN"],
+		"body": ["void describe('GIVEN ${1:context}', () => {", "\t$0", "});"],
+		"description": "Create given statement"
+	},
+	"When": {
+		"prefix": ["when", "WHEN"],
+		"body": ["void describe('WHEN ${1:condition}', () => {", "\t$0", "});"],
+		"description": "Create When statement"
+	},
+	"Then": {
+		"prefix": ["then", "THEN"],
+		"body": ["void test('THEN ${1:description}', () => {", "\t$0", "});"],
+		"description": "Create Then statement"
+	}
+}
