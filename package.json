@@ -3,6 +3,7 @@
 	"displayName": "Phils Helper Methods",
 	"description": "My custom code snippets",
 	"version": "1.0.0",
+	"publisher": "your-publisher-id",
 	"engines": {
 		"vscode": "^1.102.0"
 	},
@@ -23,6 +24,14 @@
 				"description": "A regex pattern for folders to monitor for automatic file scaffolding. Relative to workspace root."
 			}
 		}
+	},
+	"galleryBanner": {
+		"color": "#1a2b3c",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/philbotar/phils-helper-methods.git"
 	},
 	"contributes": {
 		"snippets": [
